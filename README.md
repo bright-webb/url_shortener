@@ -29,10 +29,10 @@ To run this project locally, follow these steps:
 2. **Navigate to the frontend**
     `cd frontend`
     
-3. **Install Dependencies**:
+3. **Install dependecies**:
     `npm install`
     
-4. **Start the Development Server**:
+4. **Start the development server**:
     `npm run dev`
     
 5. **Navigate to the backend**
@@ -42,8 +42,8 @@ To run this project locally, follow these steps:
     `composer install`
     
 7. **Run migrations**:
-    `php artisan serve`
+    `php artisan migrate`
 
-8. **Start the Backend Server**:
+8. **Start the backend server**:
     `php artisan serve`
 
