@@ -25,8 +25,7 @@
             <div class="col-md-4">
                 <div class="ui header">History</div>
                 <div class="ui divider"></div>
-                <div v-if="message">{{ message }}</div>
-                <div class="ui relaxed divided list">
+                <div v-if="history" class="ui relaxed divided list">
                     <div v-for="item in history" :key="item.id" class="item">
                         <div class="right floated content">
                             <div class="ui button mini copy" @click="copyToClipboard(item)">
@@ -42,6 +41,7 @@
                         </div>
                     </div>
                 </div>
+                <div v-else class="ui message info">No link available</div>
             </div>
         </div>
     </div>
